@@ -42,7 +42,7 @@ ${historyContext}`;
       {
         model: aiConfig.mistral.model,
         messages,
-        temperature: 0.3,
+        temperature: 0.1,
         max_tokens: 1000
         // Add other fields from the docs if needed
       },

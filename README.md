@@ -1,4 +1,13 @@
 # AI-Powered Regulatory Document Chatbot
+NOTE : For the time being I have added .env so it is easy to test the working of the application. :)
+Screenshots ->
+![Screenshot 2025-06-08 105121](https://github.com/user-attachments/assets/25c18cfb-caa5-4098-ab6d-e849b28376b5)
+![Screenshot 2025-06-08 105343](https://github.com/user-attachments/assets/3f84dc92-21d6-4707-997a-b7e81ea5122e)
+ 
+![Screenshot 2025-06-08 084630](https://github.com/user-attachments/assets/c833aff2-ccc4-4809-8a3b-da65e707983f)
+![Screenshot 2025-06-08 105318](https://github.com/user-attachments/assets/f9734608-cc6e-4be7-b48c-5936ec320706)
+![Screenshot 2025-06-08 105546](https://github.com/user-attachments/assets/6905f795-3a32-4aae-b334-eddeeef003d6)
+
 
 A comprehensive solution for Quality Assurance and Regulatory Affairs teams to quickly navigate and query regulatory documents using AI.
 

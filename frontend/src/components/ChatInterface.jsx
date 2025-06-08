@@ -3,7 +3,7 @@ import { Send, ArrowLeft, FileText, Bot, User, ExternalLink, Loader } from 'luci
 import axios from 'axios';
 import { marked } from 'marked';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_URL =  https://chatbot-backend-qni5.onrender.com;
 
 const ChatInterface = ({ chatSession, selectedDocuments, onBackToDocuments }) => {
   const [messages, setMessages] = useState([]);

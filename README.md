@@ -72,7 +72,6 @@ regulatory-chatbot/
    ```env
    MONGODB_URI=mongodb://localhost:27017/regulatory-chatbot
    MISTRAL_API_KEY=your_mistral_api_key_here
-   OPENAI_API_KEY=your_openai_api_key_here
    PORT=5000
    NODE_ENV=development
    ```
@@ -118,7 +117,6 @@ regulatory-chatbot/
 - **Views**: JSON API responses
 - **Controllers**: Business logic for document and chat operations
 - **Services**: AI integration and document processing
-- **Middleware**: Error handling and validation
 
 ### Frontend (React.js)
 - **Components**: Modular UI components
@@ -172,14 +170,3 @@ npm start
 - Document version control
 - Audit trails and compliance reporting
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.

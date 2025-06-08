@@ -1,5 +1,7 @@
 # AI-Powered Regulatory Document Chatbot
 NOTE : For the time being I have added .env so it is easy to test the working of the application. :)
+
+
 Screenshots ->
 ![Screenshot 2025-06-08 105121](https://github.com/user-attachments/assets/25c18cfb-caa5-4098-ab6d-e849b28376b5)
 ![Screenshot 2025-06-08 105343](https://github.com/user-attachments/assets/3f84dc92-21d6-4707-997a-b7e81ea5122e)

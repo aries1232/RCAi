@@ -1,17 +1,26 @@
-// as there was very less time I thought it would be better to go with the alternative option like for the time being we can use the
-//  online api and whennever we are ready and set our offline model the app with switch it
- export const aiConfig = {
+// AI Configuration for chat and embeddings
+export const aiConfig = {
   useOffline: false, // Set to true to use offline model
   mistral: {
     apiKey: process.env.MISTRAL_API_KEY,
-    baseURL: 'https://api.mistral.ai/v1',
-    model: 'mistral-medium'
+    baseURL: "https://api.mistral.ai/v1",
+    model: "mistral-medium",
+  },
+  huggingface: {
+    apiKey: process.env.HF_API_KEY, // Optional for some models
+    embeddingsModel:
+      process.env.HF_EMBEDDINGS_MODEL ||
+      "sentence-transformers/all-MiniLM-L6-v2",
   },
   offline: {
     enabled: false, // Set to true if you have an offline model running
-    endpoint: 'http://localhost:11434',
-    model: 'mistral-7b'
-  }
+    endpoint: "http://localhost:11434",
+    model: "mistral-7b",
+  },
+  chromadb: {
+    url: process.env.CHROMADB_URL || "http://localhost:8000",
+    collectionName: "regulatory_documents",
+  },
 };
 
 // Returns config for the selected AI mode

@@ -1,0 +1,31 @@
+{
+  "name": "regulatory-compliance-chatbot",
+  "version": "1.0.0",
+  "description": "AI-powered regulatory compliance chatbot with vector embeddings",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "setup": "chmod +x setup.sh && ./setup.sh",
+    "test-embeddings": "node test-embeddings.js",
+    "test-hybrid-search": "node test-hybrid-search.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "regulatory",
+    "compliance",
+    "chatbot",
+    "ai",
+    "vector-embeddings",
+    "chromadb",
+    "openai",
+    "mistral"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 

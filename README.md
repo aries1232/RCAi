@@ -1,4 +1,4 @@
-# AI-Powered Regulatory Document Chatbot
+#  RCAi-Regulatory Compliance AI Platform
 NOTE : For the time being I have added .env so it is easy to test the working of the application. :)
 
 
